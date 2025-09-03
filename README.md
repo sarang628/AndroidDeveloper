@@ -2,13 +2,10 @@
 ```
 1. Before you begin
 
-안드로이드 스튜디오 설치. 사양 확인
-
-안드로이드 스튜디오에서 제공하는 탬플릿으로 첫 앱 만들기
-
-코틀린과 Jetpack으로 앱 커스터마이즈 하기
-
-안드로이드 스튜디오가 업데이트 될 때마다 UI가 조금씩 바뀌어 튜토리얼과 디자인지 좀 다른 수 있지만 괜찮음.
+- 안드로이드 스튜디오 설치. 사양 확인
+- 안드로이드 스튜디오에서 제공하는 탬플릿으로 첫 앱 만들기
+- 코틀린과 Jetpack으로 앱 커스터마이즈 하기
+- 안드로이드 스튜디오가 업데이트 될 때마다 UI가 조금씩 바뀌어 튜토리얼과 디자인지 좀 다른 수 있지만 괜찮음.
 
 전제 조건
 - 코틀린 지식
@@ -22,13 +19,11 @@
 - 코틀린으로 text 업데이트
 - Jetpack Compose로 UI 업데이트 방법
 
-∫
 무엇을 빌드?
 - 당신을 소개하는 앱
 ```
 
-안드로이드 스튜디오는 설치되어 있다.
-
+안드로이드 스튜디오는 설치되어 있다.<br>
 다음장으로 넘어가 보자.
 
 # [2. Create a project using the template](https://developer.android.com/codelabs/basic-android-kotlin-compose-first-app?continue=https%3A%2F%2Fdeveloper.android.com%2Fcourses%2Fpathways%2Fandroid-basics-compose-unit-1-pathway-2%23codelab-https%3A%2F%2Fdeveloper.android.com%2Fcodelabs%2Fbasic-android-kotlin-compose-first-app#1)
@@ -72,6 +67,8 @@
 - 상단에 파일 구조를 보여주는 방법을 선택할 수 있어 기존 윈도우 트리 형식으로 보고싶다면 Project Source Files 선택한다.
 
 ```
+폴더 보기 방식을 Project로 하면 일반적인 IDE에서 제공하는 방식으로 볼 수 있다.
+Android를 선택하면 안드로이드에서 권장하는 방식으로 파일 폴더 트리를 보여준다.
 
 # [4. Update the text](https://developer.android.com/codelabs/basic-android-kotlin-compose-first-app?continue=https%3A%2F%2Fdeveloper.android.com%2Fcourses%2Fpathways%2Fandroid-basics-compose-unit-1-pathway-2%23codelab-https%3A%2F%2Fdeveloper.android.com%2Fcodelabs%2Fbasic-android-kotlin-compose-first-app#3)
 
@@ -86,14 +83,14 @@ note: 함수는 특정 기능을 수행하는 프로그램의 조각이다.
 - 코틀린과 같은 프로그램에선 main() 이 진입점 이라면 안드로이드 앱에선 onCreate() 가 진입점 이다.
 - 모든 @Composable 어노테이션이 붙은 함수들은 setContent()에서 호출 할 수 있다.
 - 또는 @Composable 함수에서 다른 Composable 함수를 호출할 수 있다.
-- 어노테이션은 코틀린 컴파일러에 UI 생성을 위한 컴포즈 함수라는것을 말해준다.
+- 어노테이션은 코틀린 컴파일러에 UI 생성을 위한 컴포즈 함수라는 것을 말해준다.
 
 Note: 컴파일러는 작성한 코드를 라인 단위로 가져다 컴퓨터가 해석할 수 있게 해석한다.
 이 단계를 코드를 컴파일 한다고 말한다.
 
 Greeting() 함수를 보자
 - Composable 함수이다.
-- @Composable 이 상단에 있는것을 볼 수 있다.
+- @Composable 어노테이션 이 상단에 있는것을 볼 수 있다.
 - 어떤 input을 가져다. UI를 그린다.
 
 composable 함수의 3가지 특징
@@ -112,4 +109,9 @@ fun Greeting(name: String, modifier: Modifier = Modifier) {
 
 Greeting 함수는 이름을 입력받아 표시한다.
 
+@Composable 위에 @Preview를 붙이면 미리보기를 볼 수 있다.
+showBackground로 배경을 설정할 수 있다.
+
 ```
+
+<img src ="./screenshots/update_the_text.png" width="600"/>
