@@ -115,3 +115,17 @@ showBackground로 배경을 설정할 수 있다.
 ```
 
 <img src ="./screenshots/update_the_text.png" width="600"/>
+
+
+# [5. Change the background color](https://developer.android.com/codelabs/basic-android-kotlin-compose-first-app?continue=https%3A%2F%2Fdeveloper.android.com%2Fcourses%2Fpathways%2Fandroid-basics-compose-unit-1-pathway-2%23codelab-https%3A%2F%2Fdeveloper.android.com%2Fcodelabs%2Fbasic-android-kotlin-compose-first-app#4)
+```
+텍스트 입력은 했고, 지루하니 배경을 바꿔 보기
+Surface 라는것이 필요.
+Surface는 UI를 안에 담에 배경이나 테두리를 두를 수 있는 컨테이너 이다.
+
+1. 텍스트 위에 alt+enter 누르면 Surround 옵션이 나옴.
+2. Default로 Box가 생성되지만 삭제하고 Surface로 바꾸기
+3. Optimize import 도 실행해보고, Color import 해보기
+```
+
+<img src = "./screenshots/change_the_background_color.png" width="700"/>
