@@ -129,3 +129,31 @@ Surface는 UI를 안에 담에 배경이나 테두리를 두를 수 있는 컨�
 ```
 
 <img src = "./screenshots/change_the_background_color.png" width="700"/>
+
+# [6. Add padding](https://developer.android.com/codelabs/basic-android-kotlin-compose-first-app?continue=https%3A%2F%2Fdeveloper.android.com%2Fcourses%2Fpathways%2Fandroid-basics-compose-unit-1-pathway-2%23codelab-https%3A%2F%2Fdeveloper.android.com%2Fcodelabs%2Fbasic-android-kotlin-compose-first-app#5)
+```
+텍스트 주변에 패딩 넣어보기.
+
+Modifier은 composable를 장식하는데 사용된다.
+그중에 하나가 패딩. 패딩은 요소 주변에 공간을 넣는다.
+
+```
+
+어렵지 않게 패딩을 넣을 수 있다.
+
+7. 생략
+
+# [8. Conclusion](https://developer.android.com/codelabs/basic-android-kotlin-compose-first-app?continue=https%3A%2F%2Fdeveloper.android.com%2Fcourses%2Fpathways%2Fandroid-basics-compose-unit-1-pathway-2%23codelab-https%3A%2F%2Fdeveloper.android.com%2Fcodelabs%2Fbasic-android-kotlin-compose-first-app#7)
+```
+Android Basics with Compose course의 일부
+앱을 에뮬레이터 및 물리 디바이스에서 실행시켜보고 싶다면.
+다음 코드랩 따라가기
+
+요약
+- 새 프로젝트 만들기 : 안드로이스 스튜디오 열기, New Project 클릭 -> Empty Activity -> Next, 프로젝트명과 환경 설정.
+- Preview를 통해 앱을 미리 보기
+- Composable 함수  : 시작 대분자, @Composable 어노테이션, 리턴값 없음. 3가지 특징
+- composable 함수를 장식하는 Modifier
+```
+
+[Quiz](https://developer.android.com/courses/quizzes/android-basics-compose-unit-1-pathway-2/android-basics-compose-unit-1-pathway-2?continue=https%3A%2F%2Fdeveloper.android.com%2Fcourses%2Fpathways%2Fandroid-basics-compose-unit-1-pathway-2%23quiz-%2Fcourses%2Fquizzes%2Fandroid-basics-compose-unit-1-pathway-2%2Fandroid-basics-compose-unit-1-pathway-2)
