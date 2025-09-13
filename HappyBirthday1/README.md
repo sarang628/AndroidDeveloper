@@ -73,3 +73,48 @@ Image는 contentDescription를 설정해 줘야함. 접근성을 위한 talkback
 ```
 
 <img src = "../screenshots/add_an_Image_composable.png" width="1000">
+
+## [4. Add Box layout](https://developer.android.com/codelabs/basic-android-kotlin-compose-add-images?continue=https%3A%2F%2Fdeveloper.android.com%2Fcourses%2Fpathways%2Fandroid-basics-compose-unit-1-pathway-3%23codelab-https%3A%2F%2Fdeveloper.android.com%2Fcodelabs%2Fbasic-android-kotlin-compose-add-images#3)
+```
+
+Box loyout은 다른 컴포넌트 위에 쌓을 수 있다.
+
+GreetingImage(
+                message = "Happy Birthday Sam!",
+                from = "From Emma"
+            )
+
+```
+
+<img src = "../screenshots/add_box_layout.png" width="1000"/>
+
+## [5. Change opacity and scale the image](https://developer.android.com/codelabs/basic-android-kotlin-compose-add-images?continue=https%3A%2F%2Fdeveloper.android.com%2Fcourses%2Fpathways%2Fandroid-basics-compose-unit-1-pathway-3%23codelab-https%3A%2F%2Fdeveloper.android.com%2Fcodelabs%2Fbasic-android-kotlin-compose-add-images#4)
+```
+ContentScale을 사용해 이미지 크기를 조정할 수 있다.
+
+ContentScale.Crop 사용 시 비율을 유지 하며 크기 조정
+
+Layout Modifiers
+
+Modifier은 Jetpack Compose UI elements에 장식이나 동작을 추가 할 수 있다.
+
+
+// Example
+Text(
+    text = "Hello, World!",
+    // Solid element background color
+    modifier = Modifier.background(color = Color.Green)
+) 
+
+텍스트 배경 변경
+
+자식 컴포넌트의 위치를 설정하는데에도 Modifier 사용.
+
+Row, Column에서 가로 새로 정렬하는데 사용할 수 있음.
+
+다양한 옵션으로 정렬하는 방법을 제공함.
+
+
+```
+<img src = "https://developer.android.com/static/codelabs/basic-android-kotlin-compose-add-images/img/df69881d07b064d0.gif" width="500"/>
+<img src = "https://developer.android.com/static/codelabs/basic-android-kotlin-compose-add-images/img/c1e6c40e30136af2.gif" width="500"/>
