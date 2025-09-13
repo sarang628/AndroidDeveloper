@@ -72,4 +72,4 @@ Image는 contentDescription를 설정해 줘야함. 접근성을 위한 talkback
 
 ```
 
-<img src src = "../screenshots/add_an_Image_composable.png" width="1000">
+<img src = "../screenshots/add_an_Image_composable.png" width="1000">
