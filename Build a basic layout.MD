@@ -42,25 +42,4 @@ Composable함수는 입력에 의해서만 제어 된다.
 HappyBirthday module 참고
 
 # [4 Add images to your Android app](https://developer.android.com/codelabs/basic-android-kotlin-compose-add-images?continue=https%3A%2F%2Fdeveloper.android.com%2Fcourses%2Fpathways%2Fandroid-basics-compose-unit-1-pathway-3%23codelab-https%3A%2F%2Fdeveloper.android.com%2Fcodelabs%2Fbasic-android-kotlin-compose-add-images#0)
-
-## [1. Before you begin](https://developer.android.com/codelabs/basic-android-kotlin-compose-add-images?continue=https%3A%2F%2Fdeveloper.android.com%2Fcourses%2Fpathways%2Fandroid-basics-compose-unit-1-pathway-3%23codelab-https%3A%2F%2Fdeveloper.android.com%2Fcodelabs%2Fbasic-android-kotlin-compose-add-images#0)
-
-```
-Prerequisites
-- 안드로이드 스튜디오로 앱 생성과 실행 방법.
-- composable UI 요소들 추가 방법 
-
-What you'll learn
-- 이미지, 사진 추가.
-- Image composable로 이미지 표시.
-- String 리소스 사용 모범 사례
-
-What you'll build
-- 생일 축하 앱에 이미지 추가
-
-What you'll need
-- 안드로이드 스튜디오
-- 이전에 만든 생일축하 앱 앱
-```
-
-## [2. Set up your app](https://developer.android.com/codelabs/basic-android-kotlin-compose-add-images?continue=https%3A%2F%2Fdeveloper.android.com%2Fcourses%2Fpathways%2Fandroid-basics-compose-unit-1-pathway-3%23codelab-https%3A%2F%2Fdeveloper.android.com%2Fcodelabs%2Fbasic-android-kotlin-compose-add-images#1)
+HappyBirthday1 module 참고

@@ -23,3 +23,5 @@ rootProject.name = "Greeting Card"
 include(":app")
 include(":GreetingCard")
 include(":HappyBirthday")
+include(":HappyBirthday1")
+include(":animations")
