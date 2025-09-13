@@ -118,3 +118,48 @@ Row, Column에서 가로 새로 정렬하는데 사용할 수 있음.
 ```
 <img src = "https://developer.android.com/static/codelabs/basic-android-kotlin-compose-add-images/img/df69881d07b064d0.gif" width="500"/>
 <img src = "https://developer.android.com/static/codelabs/basic-android-kotlin-compose-add-images/img/c1e6c40e30136af2.gif" width="500"/>
+
+
+## [6. Align and arrange the text](https://developer.android.com/codelabs/basic-android-kotlin-compose-add-images?continue=https%3A%2F%2Fdeveloper.android.com%2Fcourses%2Fpathways%2Fandroid-basics-compose-unit-1-pathway-3%23codelab-https%3A%2F%2Fdeveloper.android.com%2Fcodelabs%2Fbasic-android-kotlin-compose-add-images#5)
+```
+텍스트 정렬과 패딩에 관한 예제
+
+생략..
+```
+
+## [7. Adopt good code practices](https://developer.android.com/codelabs/basic-android-kotlin-compose-add-images?continue=https%3A%2F%2Fdeveloper.android.com%2Fcourses%2Fpathways%2Fandroid-basics-compose-unit-1-pathway-3%23codelab-https%3A%2F%2Fdeveloper.android.com%2Fcodelabs%2Fbasic-android-kotlin-compose-add-images#6)
+```
+하드코딩된 텍스트 영역을 잡은다음 전구모양 클릭 하면 String resource로 생성 및 코드를 변환해주는 기능이 있음.
+
+모든 문구는 String.xml에서 한데 모아 관리 하기
+
+
+```
+
+## [8. Try this challenge](https://developer.android.com/codelabs/basic-android-kotlin-compose-add-images?continue=https%3A%2F%2Fdeveloper.android.com%2Fcourses%2Fpathways%2Fandroid-basics-compose-unit-1-pathway-3%23codelab-https%3A%2F%2Fdeveloper.android.com%2Fcodelabs%2Fbasic-android-kotlin-compose-add-images#7)
+```
+생략
+```
+
+## [9. Get the solution code](https://developer.android.com/codelabs/basic-android-kotlin-compose-add-images?continue=https%3A%2F%2Fdeveloper.android.com%2Fcourses%2Fpathways%2Fandroid-basics-compose-unit-1-pathway-3%23codelab-https%3A%2F%2Fdeveloper.android.com%2Fcodelabs%2Fbasic-android-kotlin-compose-add-images#8)
+```
+git - version control system 으로 코드를 관리 할 수 있다.
+
+github 웹 서비스가 있음.
+
+repository - 전체 프로젝트를 컴퓨터에 clone 할 수 있는 프로젝트 저장소.
+ 
+branch - 저장소의 버전 또는 독립적인 개발 라인. repository는 다양한 branch를 갖을 수 있다. 
+```
+
+## [10. Conclusion](https://developer.android.com/codelabs/basic-android-kotlin-compose-add-images?continue=https%3A%2F%2Fdeveloper.android.com%2Fcourses%2Fpathways%2Fandroid-basics-compose-unit-1-pathway-3%23codelab-https%3A%2F%2Fdeveloper.android.com%2Fcodelabs%2Fbasic-android-kotlin-compose-add-images#9)
+```
+modifier로 텍스트 정렬, 접근성 가이드라인, 쉽게 다른 언어로 변환 (문구를 resource로 바꾸는 것??)
+생일축하 앱은 이것으로 마무리!
+
+Summary
+- 리소스 메니저 탭 사용하여 이미지 추가
+- Image composable 사용하여 이미지 로드
+- Image composable 에 접근성 적용
+- string resource를 사용하여 Text 표시
+```
